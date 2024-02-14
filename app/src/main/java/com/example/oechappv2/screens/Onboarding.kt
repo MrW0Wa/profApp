@@ -100,7 +100,7 @@ fun Onbording(navController: NavController) {
                         .height(50.dp)
                         .fillMaxWidth()
                         .background(color = Blue, shape = RoundedCornerShape(5.dp))
-                        .clickable { navController.navigate("holder") },
+                        .clickable { navController.navigate("signup") },
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
@@ -129,7 +129,7 @@ fun Onbording(navController: NavController) {
                         fontWeight = FontWeight.Bold,
                         textAlign = TextAlign.Center,
                         color = Blue,
-                        modifier = Modifier.clickable { navController.navigate("holder") }
+                        modifier = Modifier.clickable { navController.navigate("signup") }
                     )
                 }
             }
@@ -142,7 +142,7 @@ fun Onbording(navController: NavController) {
                         modifier = Modifier
                             .height(50.dp)
                             .width(100.dp)
-                            .clickable { navController.navigate("holder") }
+                            .clickable { navController.navigate("signup") }
                             .border(width = 1.dp, color = Blue, shape = RoundedCornerShape(5.dp)),
                         contentAlignment = Alignment.Center
                     ) {
